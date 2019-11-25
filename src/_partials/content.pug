@@ -6,7 +6,7 @@ section.table-section
     input(type="text")
     span.subtitle DOB:
     input(type="text")
-
+    button#add-btn Add row
     .table
       .table__row
         .table__col
@@ -19,62 +19,6 @@ section.table-section
           b Chair Total Min
         .table__col__big
           b Notes (Indicate how patient tolerated treatment)
-      form
-        .table__row
-          .table__col
-            input(type="text").date
-          .table__col
-            input(type="text")
-          .table__col
-            input(type="text").validate.ttm
-          .table__col
-            input(type="text").validate.ctm
-          .table__col__big
-            label
-              input(type="checkbox")
-              | Pt. tolerated treatment well
-            label
-              input(type="checkbox")
-              | Pt. c/o after use of
-            label
-              input(type="radio" name="rad")
-              | Scoliosis Table
-            label
-              input(type="radio" name="rad").input-switch
-              | Chair
-              input(type="text")
-            label
-              input(type="radio" name="rad").input-switch
-              | Stopped treatment prematurely due to
-              input(type="text")
-      form
-        .table__row
-          .table__col
-            input(type="text").date
-          .table__col
-            input(type="text")
-          .table__col
-            input(type="text").validate.ttm
-          .table__col
-            input(type="text").validate.ctm
-          .table__col__big
-            label
-              input(type="checkbox")
-              | Pt. tolerated treatment well
-            label
-              input(type="checkbox")
-              | Pt. c/o after use of
-            label
-              input(type="radio" name="rad")
-              | Scoliosis Table
-            label
-              input(type="radio" name="rad").input-switch
-              | Chair
-              input(type="text")
-            label
-              input(type="radio" name="rad").input-switch
-              | Stopped treatment prematurely due to
-              input(type="text")
       form
         .table__row
           .table__col
